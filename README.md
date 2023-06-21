@@ -1,5 +1,4 @@
-# .w
-kol.# Vite powered CV
+# Vite powered
 
 ## Installation
 1. clone this repository
