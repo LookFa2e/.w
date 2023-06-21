@@ -1,0 +1,241 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    margin: 0px;
+}
+
+.container{
+    width: 1000px;
+    padding: 100px 0;
+    margin: 0 auto;
+    min-height: 400px;
+    border: 4px solid #000000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.container .left_side{
+    position: relative;
+    background-color: red;
+    padding: 10px;
+    margin-top: -55%;
+    margin-bottom: -55%;
+}
+.container .left_side .phone{
+    position: relative;
+    background-color: blue;
+    color: white;
+    padding: 0.1px;
+}
+
+.container .left_side .phone img{
+    filter: invert(90%) sepia(2%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+    margin-top: 30px;
+}
+.container .left_side .phone h2{
+    color: white;
+    margin-left: -30%;
+}
+
+.container .left_side .chat{
+    position: relative;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    padding: 0.1px;
+}
+.container .left_side .chat img{
+    filter: invert(90%) sepia(2%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+margin-top: 20px;
+}
+.container .left_side .chat h2{
+    color: white;
+    margin-left: -30%;
+    margin-top: 30px;
+}
+.container .left_side .car{
+    position: relative;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    padding: 0.1px;
+}
+.container .left_side .car img{
+    filter: invert(90%) sepia(2%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+    margin-top: 20px;
+}
+.container .left_side .car h2{
+    color: white;
+    margin-left: -30%;
+    margin-top: 30px;
+}
+.container .left_side .compass{
+    position: relative;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    padding: 0.1px;
+}
+.container .left_side .compass img{
+    filter: invert(90%) sepia(2%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+    margin-top: 20px;
+}
+.container .left_side .compass h2{
+    color: white;
+    margin-left: -30%;
+    margin-top: 30px;
+}
+
+
+.container .right_side{
+    position: relative;
+    background-color: #47b658;
+    padding: 10px;
+    margin-top: -55%;
+    margin-bottom: -55%;
+}
+.container .right_side .image{
+    position: relative;
+    background-color: blue;
+    color: white;
+    padding: 0.1px;
+}
+
+.container .right_side .image img{
+    filter: invert(90%) sepia(2%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+    margin-top: 30px;
+}
+.container .right_side .image h2{
+    color: white;
+    margin-left: -30%;
+}
+
+.container .right_side .email{
+    position: relative;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    padding: 0.1px;
+}
+.container .right_side .email img{
+    filter: invert(90%) sepia(2%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+    margin-top: 20px;
+}
+.container .right_side .email h2{
+    color: white;
+    margin-left: -30%;
+    margin-top: 30px;
+}
+
+.container .right_side .music{
+    position: relative;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    padding: 0.1px;
+}
+.container .right_side .music img{
+    filter: invert(90%) sepia(2%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+    margin-top: 20px;
+}
+.container .right_side .music h2{
+    color: white;
+    margin-left: -30%;
+    margin-top: 30px;
+}
+.container .right_side .notes{
+    position: relative;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    padding: 0.1px;
+}
+.container .right_side .notes img{
+    filter: invert(90%) sepia(2%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+    margin-top: 20px;
+}
+.container .right_side .notes h2{
+    color: white;
+    margin-left: -30%;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) and (orientation: portrait){
+    .container{
+        width: 100%;
+        background-color: #000000;
+    }
+}
+
+@media (max-height: 601px) {
+    .container {
+        width: 100%;
+        background-color: #000000;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        padding: 0;
+    }
+    .container .left_side{
+        padding-bottom: 0px;
+    }
+    .container .right_side{
+        padding-top: 0px;
+    }
+    .container .left_side,
+    .container .right_side {
+        margin-top: 0px;
+        margin-bottom: 0px
+    }
+
+    .container .left_side .phone img,
+    .container .left_side .chat img,
+    .container .left_side .car img,
+    .container .left_side .compass img,
+    .container .right_side .image img,
+    .container .right_side .email img,
+    .container .right_side .music img,
+    .container .right_side .notes img {
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+    }
+
+    .container .left_side .phone h2,
+    .container .left_side .chat h2,
+    .container .left_side .car h2,
+    .container .left_side .compass h2,
+    .container .right_side .image h2,
+    .container .right_side .email h2,
+    .container .right_side .music h2,
+    .container .right_side .notes h2 {
+        margin: 0;
+        margin-right: 75%;
+        margin-top: -3%;
+        font-size: 20px;
+    }
+
+
+    .container .left_side .phone,
+    .container .left_side .chat,
+    .container .left_side .car,
+    .container .left_side .compass,
+    .container .right_side .image,
+    .container .right_side .email,
+    .container .right_side .music,
+    .container .right_side .notes {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 0;
+        height: 40px;
+    }
+}
