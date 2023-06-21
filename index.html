@@ -1,59 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <title>app</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
   <link rel="stylesheet"  href="src/css/main.css">
+  <title>Instagram View</title>
 </head>
 <body>
-<div class="container">
-  <div class="left_side">
-  <div class="phone">
-    <img width="70px" height="70px" src="public/images/telephone.png">
-    <h2>Połączenia</h2>
+<header>
+  <div class="logo">
+    <img src="public/images/instagram.png" alt="Instagram Logo">
   </div>
-    <div class="chat">
-      <img width="70px" height="70px" src="public/images/chat.png">
-      <h2>Wiadomości</h2>
-    </div>
-    <div class="car">
-      <img width="70px" height="70px" src="public/images/sedan-car-front.png">
-      <h2>Nawigacja</h2>
-    </div>
-    <div class="compass">
-      <img width="70px" height="70px" src="public/images/compass.png">
-      <h2>Przeglądarka</h2>
-    </div>
-    <footer class="button">
-      <h2></h2>
-    </footer>
+  <div class="search-bar">
+    <input type="text" placeholder="Search">
   </div>
-  <div class="right_side">
-    <div class="image">
-      <img width="70px" height="70px" src="public/images/image.png">
-      <h2>Galeria</h2>
-    </div>
-    <div class="email">
-      <img width="70px" height="70px" src="public/images/envelope.png">
-      <h2>Email</h2>
-    </div>
-    <div class="music">
-      <img width="70px" height="70px" src="public/images/music-player.png">
-      <h2>Muzyka</h2>
-    </div>
-    <div class="notes">
-      <img width="70px" height="70px" src="public/images/dashboard.png">
-      <h2>Notatnik</h2>
-    </div>
-    <footer class="button1">
-      <h2></h2>
-    </footer>
+  <div class="icons">
+    <img src="public/images/magnifying-glass.png" alt="Explore">
+    <img src="public/images/heart.png" alt="Notifications">
+    <img src="public/images/man.png" alt="Profile">
   </div>
-</div>
+</header>
+
+<main>
+  <div class="post">
+    <img width="200px" height="200px" src="public/images/olaf.png" alt="Post Image">
+    <div class="post-details">
+      <img src="public/images/user.png"  alt="Profile Picture">
+      <span class="username">john_doe</span>
+      <span class="caption">Beautiful sunset</span>
+    </div>
+  </div>
+  <div class="post2">
+    <img width="200px" height="200px" src="public/images/varus.png" alt="Post Image">
+    <div class="post-details">
+      <img src="public/images/user.png"  alt="Profile Picture">
+      <span class="username2">Hot_rat</span>
+      <span class="caption2">This i will win:b</span>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-icons">
+    <img src="public/images/home-icon-silhouette.png" alt="Home">
+    <img src="public/images/magnifying-glass.png" alt="Search">
+    <img src="public/images/more.png" alt="Add Post">
+    <img src="public/images/heart.png" alt="Likes">
+    <img src="public/images/man.png" alt="Profile">
+  </div>
+</footer>
 </body>
 </html>
