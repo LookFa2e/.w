@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+    <option name="CUSTOM_SCOPE_NAME" value="Module 'w'" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c326a850-1999-4aef-ad8e-10655704c4f7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vite-project/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/public/images/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/public/images/home-icon-silhouette.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/public/images/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/public/images/magnifying-glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/public/images/man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/public/images/more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/public/images/olaf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/public/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/public/images/varus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/src/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite-project/src/js/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Sass File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vite-project" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2RTCQrwyCKqHJliTYxtohpdTBOg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Administrator/Documents/w/vite-project/public/images",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\w\vite-project\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Documents\w\vite-project\public\images" />
+      <recent name="C:\Users\Administrator\Documents\w\vite-project\src\css" />
+      <recent name="C:\Users\Administrator\Documents\w\vite-project\src\js" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c326a850-1999-4aef-ad8e-10655704c4f7" name="Changes" comment="" />
+      <created>1687264671747</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687264671747</updated>
+      <workItem from="1687264673081" duration="57568000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
