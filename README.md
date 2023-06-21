@@ -1,4 +1,4 @@
-# Vite powered
+# Vite power
 
 ## Installation
 1. clone this repository
